@@ -108,6 +108,7 @@ Report a QC run like this: the preset and its status, the error and warning coun
 ## Limits
 
 - IMSC input is read as plain TTML, so `fix` and `shift` on an IMSC file write TTML without the IMSC profile. If the profile matters, convert the result with `--to imsc11` or `--to imsc101`.
+- SCC, MCC and EBU-STL use legacy character sets that hold Latin-script text only. If more than 30% of the characters cannot be stored (Arabic, Cyrillic, Greek, Hebrew, CJK), the export stops with an error and writes nothing; fewer are replaced, with a warning. Do not retry. Offer `ebuttd`, `ttml`, `imsc11` or `itt`, which hold any script.
 - `shift` moves every cue by the same amount. Cues pushed before zero are clamped to zero (there is a warning). It does not convert frame rates or correct drift.
 - Inputs over 25 MB are rejected.
 - A text format with the wrong extension (an SRT saved as `.txt`, say) is rejected as unrecognised. Copy it to a writable folder under the right extension and run the command on the copy.

@@ -1,6 +1,6 @@
 # CueForge
 
-CueForge converts, checks and fixes subtitle and caption files. It reads and writes SRT, WebVTT, YouTube SBV, ASS/SSA, TTML (including IMSC 1.0.1, IMSC 1.1, Apple iTT and EBU-TT-D), Scenarist SCC, EBU-STL and MCC. It checks a file against delivery rules such as line length, reading speed, cue duration, gaps and overlaps, with presets based on the Netflix English (USA) and Arabic timed text style guides, and it can auto-fix the issues that have a safe fix and shift all timings by a fixed offset.
+CueForge converts, checks and fixes subtitle and caption files. It reads and writes SRT, WebVTT, YouTube SBV, ASS/SSA, TTML (including IMSC 1.0.1, IMSC 1.1, Apple iTT and EBU-TT-D), Scenarist SCC, EBU-STL and MCC. It checks a file against delivery rules such as line length, reading speed, cue duration, gaps and overlaps, with presets based on the Netflix English (USA) and Arabic timed text style guides, and it can auto-fix the issues that have a safe fix and shift all timings by a fixed offset. SCC, MCC and EBU-STL output holds Latin-script text only; Arabic and other scripts need one of the TTML-family formats.
 
 ## Install
 

@@ -57,6 +57,8 @@ Warnings say what the tool assumed or changed: a guessed text encoding for a fil
 
 The input format comes from the file extension. SCC, EBU-STL, MCC and the TTML family are also recognised by their contents. Inputs over 25 MB are rejected.
 
+SCC, MCC and EBU-STL use legacy character sets that hold Latin-script text only. Exporting mostly Arabic, Cyrillic, Greek, Hebrew or CJK text to one of them stops with an error and writes nothing; a few unsupported characters are replaced, with a warning. Use `ebuttd`, `ttml`, `imsc11` or `itt` for those scripts.
+
 ## QC presets
 
 | Preset           | Status   | Basis                                                                                                                                              |
