@@ -1,0 +1,37 @@
+[Script Info]
+; Arabic ASS fixture (mirrors fixtures/srt/arabic.srt)
+Title: Arabic
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:03.00,Default,,0,0,0,,مرحبًا بكم في هذا العرض التوضيحي.
+Dialogue: 0,0:00:03.50,0:00:06.00,Default,,0,0,0,,شاهدوا الحلقة الجديدة على Netflix الآن.
+Dialogue: 0,0:00:06.50,0:00:09.00,Default,,0,0,0,,بدأ البث في الساعة 9 مساءً.
+Dialogue: 0,0:00:09.50,0:00:12.00,Default,,0,0,0,,وصل عدد المشاهدين إلى ١٢٣ ألف مشاهد.
+Dialogue: 0,0:00:12.50,0:00:15.00,Default,,0,0,0,,هل أعجبك الفيلم؟
+Dialogue: 0,0:00:15.50,0:00:18.00,Default,,0,0,0,,نعم، كان رائعًا جدًّا!
+Dialogue: 0,0:00:18.50,0:00:21.00,Default,,0,0,0,,اسمه مُحَمَّد، وهو مخرج موهوب.
+Dialogue: 0,0:00:21.50,0:00:24.00,Default,,0,0,0,,التقينا في معرض CES بمدينة دبي.
+Dialogue: 0,0:00:24.50,0:00:27.00,Default,,0,0,0,,السعر هو 49.99 دولارًا فقط.
+Dialogue: 0,0:00:27.50,0:00:30.00,Default,,0,0,0,,أو ما يعادل ١٨٠ ريالًا سعوديًّا.
+Dialogue: 0,0:00:30.50,0:00:33.00,Default,,0,0,0,,تابعونا على منصّة YouTube أيضًا.
+Dialogue: 0,0:00:33.50,0:00:36.00,Default,,0,0,0,,الكلمة الطويـــلة فيها تطويل زائد.
+Dialogue: 0,0:00:36.50,0:00:39.00,Default,,0,0,0,,قال: «أهلًا وسهلًا بالجميع».
+Dialogue: 0,0:00:39.50,0:00:42.00,Default,,0,0,0,,الفصل الأول\Nالفصل الثاني
+Dialogue: 0,0:00:42.50,0:00:45.00,Default,,0,0,0,,هذا نصٌّ يحتوي على تشكيلٍ كاملٍ بالحركات.
+Dialogue: 0,0:00:45.50,0:00:48.00,Default,,0,0,0,,رقم الطلب هو ABC-2024 رجاءً.
+Dialogue: 0,0:00:48.50,0:00:51.00,Default,,0,0,0,,الوقت المتبقّي: ٣ دقائق و30 ثانية.
+Dialogue: 0,0:00:51.50,0:00:54.00,Default,,0,0,0,,لا تنسَ الاشتراك وتفعيل الجرس.
+Dialogue: 0,0:00:54.50,0:00:57.00,Default,,0,0,0,,شكرًا لمشاهدتكم — إلى اللقاء!
+Dialogue: 0,0:00:57.50,0:01:00.00,Default,,0,0,0,,© 2024 جميع الحقوق محفوظة.
+Dialogue: 0,0:01:00.50,0:01:03.00,Default,,0,0,0,,{\i1}ملاحظة مائلة{\i0} مع كلمة bold بالخط العريض.
+Dialogue: 0,0:01:03.50,0:01:06.00,Default,,0,0,0,,انتهى العرض، نراكم قريبًا إن شاء الله.
+Dialogue: 0,0:01:06.50,0:01:09.00,Default,,0,0,0,,هَذِهِ الْجُمْلَةُ الْعَرَبِيَّةُ طَوِيلَةٌ جِدًّا وَتَتَجَاوَزُ الْحَدَّ الْأَقْصَى لِطُولِ السَّطْرِ.

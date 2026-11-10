@@ -1,0 +1,16 @@
+WEBVTT - Colour source cases
+
+NOTE
+Exercises the VTT parser's colour channel via <font color> (a dirty-VTT construct
+the parser deliberately accepts — see src/core/formats/inline.ts VTT_TOKEN_RE).
+This lives in its own fixture, not in edge/typical, because the VTT *serializer*
+re-emits colour as <c.classname>, which the parser reads back as opaque markup —
+so a colour span cannot survive the parse -> serialize -> parse round-trip suite
+(roundtrip.test.ts). Only sourceCaps.test.ts reads this file, to prove the
+vtt->* colour loss disclosure is backed by a real parse -> normalizeForTarget path.
+
+00:00:01.000 --> 00:00:03.000
+<font color="red">Red</font> and normal words
+
+00:00:04.000 --> 00:00:06.000
+A <font color="#00AAFF">blue</font> highlight

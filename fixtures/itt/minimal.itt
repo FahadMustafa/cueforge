@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" ttp:cellResolution="50 33" xml:lang="en" ttp:timeBase="smpte" ttp:frameRate="24">
+  <body>
+    <div>
+      <p begin="00:00:01:00" end="00:00:04:00">Hello world</p>
+      <p begin="00:00:05:00" end="00:00:06:12">Second<br/>line two</p>
+    </div>
+  </body>
+</tt>

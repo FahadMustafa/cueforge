@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+
+# Local agent and tracker state: never part of this repo
+.beads/
+.beads.gate.lock
+.claude/
+.superpowers/

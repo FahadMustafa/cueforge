@@ -1,0 +1,31 @@
+1
+00:00:10,000 --> 00:00:12,000
+This cue is listed first but starts later (out-of-order timing)
+
+2
+00:00:01,000 --> 00:00:05,000
+This cue overlaps the next one
+
+3
+00:00:04,000 --> 00:00:04,000
+Zero-duration cue
+
+00:00:06,000 --> 00:00:07,000
+This cue has no index line above it
+
+5
+00:00:08,000 --> 00:00:09,000
+Line one
+Line two
+Line three (more than two lines)
+
+6
+00:00:09,500 --> 00:00:10,500
+
+7
+00:00:11,000 --> 00:00:15,000
+This single subtitle line is deliberately made far longer than one hundred characters so the QC engine has something to flag later.
+
+8
+00:00:16,000 --> 00:00:18,000
+Styled <i>italic</i>, <b>bold</b>, <u>underline</u> and <font color="#FF0000">red</font>

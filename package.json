@@ -1,0 +1,50 @@
+{
+  "name": "cueforge",
+  "version": "0.1.0",
+  "description": "Convert, check and fix subtitle and caption files locally: SRT, WebVTT, SBV, ASS, TTML, IMSC, SCC, EBU-STL, Apple iTT, MCC and EBU-TT-D.",
+  "keywords": [
+    "subtitles",
+    "captions",
+    "srt",
+    "webvtt",
+    "ttml",
+    "imsc",
+    "scc",
+    "ebu-stl",
+    "qc",
+    "claude-plugin"
+  ],
+  "license": "MIT",
+  "author": "Fahad Mustafa (https://cue-forge.com)",
+  "homepage": "https://cue-forge.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FahadMustafa/cueforge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FahadMustafa/cueforge/issues"
+  },
+  "type": "module",
+  "bin": {
+    "cueforge": "dist/cueforge.mjs"
+  },
+  "files": [
+    "dist/cueforge.mjs"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "esbuild src/cli/main.ts --bundle --platform=node --format=esm --target=node22 --outfile=dist/cueforge.mjs \"--banner:js=#!/usr/bin/env node\"",
+    "build:plugin": "node scripts/build-plugin.mjs plugin --source plugin",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "esbuild": "0.28.2",
+    "typescript": "5.9.3",
+    "vitest": "5.1.0"
+  }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ebuttm="urn:ebu:tt:metadata" xmlns:ebutts="urn:ebu:tt:style" ttp:cellResolution="32 15" tts:extent="1920px 1080px" xml:lang="ar" ttp:timeBase="media">
+  <head>
+    <metadata>
+      <ebuttm:documentMetadata>
+        <ebuttm:conformsToStandard>urn:ebu:tt:distribution:2014</ebuttm:conformsToStandard>
+      </ebuttm:documentMetadata>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:fontFamily="proportionalSansSerif" tts:fontSize="80%" tts:lineHeight="normal" tts:textAlign="center" tts:color="#FFFFFF"/>
+      <style xml:id="s1" tts:fontStyle="italic"/>
+    </styling>
+    <layout>
+      <region xml:id="r0" tts:origin="10% 10%" tts:extent="80% 80%" tts:displayAlign="after" tts:overflow="visible"/>
+    </layout>
+  </head>
+  <body>
+    <div>
+      <p begin="00:00:02.000" end="00:00:03.800" style="s0" region="r0">مرحبًا بكم في هذا العرض التوضيحي.</p>
+      <p begin="00:00:04.000" end="00:00:05.800" style="s0" region="r0">شاهدوا الحلقة الجديدة على Netflix الآن.</p>
+      <p begin="00:00:06.000" end="00:00:07.800" style="s0" region="r0">بدأ البث في الساعة 9 مساءً.</p>
+      <p begin="00:00:08.000" end="00:00:09.800" style="s0" region="r0">وصل عدد المشاهدين إلى ١٢٣ ألف مشاهد.</p>
+      <p begin="00:00:10.000" end="00:00:11.800" style="s0" region="r0">هل أعجبك الفيلم؟</p>
+      <p begin="00:00:12.000" end="00:00:13.800" style="s0" region="r0">نعم، كان رائعًا جدًّا!</p>
+      <p begin="00:00:14.000" end="00:00:15.800" style="s0" region="r0">اسمه مُحَمَّد، وهو مخرج موهوب.</p>
+      <p begin="00:00:16.000" end="00:00:17.800" style="s0" region="r0">التقينا في معرض CES بمدينة دبي.</p>
+      <p begin="00:00:18.000" end="00:00:19.800" style="s0" region="r0">السعر هو 49.99 دولارًا فقط.</p>
+      <p begin="00:00:20.000" end="00:00:21.800" style="s0" region="r0">أو ما يعادل ١٨٠ ريالًا سعوديًّا.</p>
+      <p begin="00:00:22.000" end="00:00:23.800" style="s0" region="r0">تابعونا على منصّة YouTube أيضًا.</p>
+      <p begin="00:00:24.000" end="00:00:25.800" style="s0" region="r0">الكلمة الطويـــلة فيها تطويل زائد.</p>
+      <p begin="00:00:26.000" end="00:00:27.800" style="s0" region="r0">قال: «أهلًا وسهلًا بالجميع».</p>
+      <p begin="00:00:28.000" end="00:00:29.800" style="s0" region="r0">الفصل الأول</p>
+      <p begin="00:00:30.000" end="00:00:31.800" style="s0" region="r0">الفصل الثاني</p>
+      <p begin="00:00:32.000" end="00:00:33.800" style="s0" region="r0">هذا نصٌّ يحتوي على تشكيلٍ كاملٍ بالحركات.</p>
+      <p begin="00:00:34.000" end="00:00:35.800" style="s0" region="r0">رقم الطلب هو ABC-2024 رجاءً.</p>
+      <p begin="00:00:36.000" end="00:00:37.800" style="s0" region="r0">الوقت المتبقّي: ٣ دقائق و30 ثانية.</p>
+      <p begin="00:00:38.000" end="00:00:39.800" style="s0" region="r0">لا تنسَ الاشتراك وتفعيل الجرس.</p>
+      <p begin="00:00:40.000" end="00:00:41.800" style="s0" region="r0">شكرًا لمشاهدتكم — إلى اللقاء!</p>
+      <p begin="00:00:42.000" end="00:00:43.800" style="s0" region="r0">أهلًا بكم من جديد.</p>
+      <p begin="00:00:44.000" end="00:00:45.800" style="s0" region="r0"><span style="s1">ملاحظة مائلة</span> مع كلمة عريضة.</p>
+      <p begin="00:00:46.000" end="00:00:47.800" style="s0" region="r0">انتهى العرض، نراكم قريبًا إن شاء الله.</p>
+    </div>
+  </body>
+</tt>

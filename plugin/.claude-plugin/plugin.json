@@ -1,0 +1,11 @@
+{
+  "name": "cueforge",
+  "displayName": "CueForge",
+  "version": "0.1.0",
+  "description": "Convert, check and fix subtitle and caption files locally: SRT, WebVTT, SBV, ASS, TTML/IMSC, SCC, EBU-STL, iTT, MCC and EBU-TT-D. Checks files against Netflix-style delivery rules, including Arabic and RTL rules. Runs a local Node script; nothing is uploaded.",
+  "author": {
+    "name": "Fahad Mustafa",
+    "url": "https://cue-forge.com"
+  },
+  "license": "MIT"
+}

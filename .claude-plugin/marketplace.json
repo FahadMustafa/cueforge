@@ -1,0 +1,15 @@
+{
+  "name": "cueforge",
+  "description": "CueForge: convert, check and fix subtitle and caption files with a local script.",
+  "owner": {
+    "name": "Fahad Mustafa",
+    "url": "https://cue-forge.com"
+  },
+  "plugins": [
+    {
+      "name": "cueforge",
+      "source": "./plugin",
+      "description": "Convert, check and fix subtitle and caption files locally: SRT, WebVTT, SBV, ASS, TTML/IMSC, SCC, EBU-STL, iTT, MCC and EBU-TT-D."
+    }
+  ]
+}
